@@ -12,9 +12,9 @@ int main()
     std::cout << "you age is " << age  << std::endl;
 
 
-
+       std::cin.ignore();
     std::cout << "Enter your name" << std::endl ;
-    std::getline(std::cin >> std::ws,name);
+    std::getline(std::cin,name);
     std::cout << name  ;
     return 0;
 }
